@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- SAL CSS -->
+    <link rel="stylesheet" href="/assets/css/sal.css">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- STYLESHEET FOR DARK MODE-->
+
+    <link rel="stylesheet" href="/assets/css/style-dark.css">
+
+    <!-- RESPONSIVE CSS-->
+
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <title>Krausz Tamás | Weblapfejlesztés, Pályázatírás</title>
+</head>
+
+<body>
+    <div class="my_switcher">
+        <ul>
+            <li title="Dark Mode">
+                <a href="javascript:void(0)" class="setColor">
+                    <i class="fa-solid fa-moon"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- HEADER SECTION START -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-navbar d-flex">
+                <div class="header-logo">
+                    <a href="#"><img src="/assets/images/header/logo_light.png" alt="" class="light-version-logo logo_light"></a>
+                    <a href="#"><img src="/assets/images/header/logo_dark.png" alt="" class="dark-version-logo"></a>
+                    <a href="#"><img src="/assets/images/header/logo_sticky.png" alt="" class="sticky-logo"></a>
+                </div>
+                <div class="header-action">
+                    <ul class="d-flex">
+                        <div class="demo">
+                            <div>
+                                <table class="lang">
+                                    <tr>
+                                        <td class="tdlang">
+                                            <span id="hu" class="button_lang current_lang">HU</span>
+                                        </td>
+                                        <td class="tdlang"><span id="en" class="button_lang">EN</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <li class="header-social-link">
+                            <ul class="social-icon-list">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidemenu-btn">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="btn-wrap"><span></span><span></span><span></span></a></button>
+                                <div id="myDIV" class="dropdown-content hide">
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#contact">Contact</a>
+                                </div>
+                        </li>
+                        <li class="my_switcher menu">
+                            <ul>
+                                <li title="Dark Mode">
+                                    <a href="javascript:void(0)" class="setColor">
+                                        <i class="fa-solid fa-moon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <!-- BANNER SECTION START -->
+
+    <section class="banner" id="home">
+        <div class="container">
+            <div class="banner-box d-flex">
+                <div class="banner-content">
+                    <span class="subtitle" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                        Krausz Tamás
+                    </span>
+                    <h1 class="title translation english" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200" id="translate">Weblapfejlesztés <br> Pályázatírás</h1>
+                    <div class="btn-grp d-flex" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                        <a href="#" class="btn btn-primary" id="landing_button_primary">CV Letöltés</a>
+                        <a href="#" class="abt-btn" id="landing_button_secondary">Rólam</a>
+                    </div>
+                </div>
+                <div class="banner-thumbnail">
+                    <div class="large-thumb" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <img src="/assets/images/header/paralaxx.png" alt="Paralax" class="paralax-image" data-tilt>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group">
+                <li class="shape shape-1" data-sal="slide-down" data-sal-duration="500" data-sal-delay="100"><img src="/assets/images/header/bubble-32.png" alt=""></li>
+
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200"><img src="/assets/images/header/bubble-33.png" alt=""></li>
+
+                <li class="shape shape-3" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700"></li>
+
+                <li class="shape shape-4" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700"><img src="/assets/images/header/bubble-14.png" alt=""></li>
+
+                <li class="shape shape-5" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700"><img src="/assets/images/header/bubble-4.png" alt=""></li>
+
+                <li class="shape shape-6" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700"><img src="/assets/images/header/bubble-30.png" alt=""></li>
+
+                <li class="shape shape-7" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700"><img src="/assets/images/header/bubble-31.png" alt=""></li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- TILT JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    <!-- SAL JS -->
+    <script src="/assets/js/sal.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="/assets/js/main.js"></script>
+
+    <script src="/assets/js/lang.js"></script>
+
+    <script src="/assets/js/menudrop.js"></script>
+
+</body>
+
+</html>
